@@ -1,10 +1,10 @@
-# Title (replace with your title)
+# Regex Tutorial
 
-Introductory paragraph (replace this with your text)
+Regex is a regular expression is a pattern that the regular expression engine attempts to match in input text. A pattern consists of one or more character literals, operators, or constructs.
 
 ## Summary
 
-Briefly summarize the regex you will be describing and what you will explain. Include a code snippet of the regex. Replace this text with your summary.
+I will be going over the Regex for an email. Each character has its own parameter The Regex format for email is: /^([a-z0-9_\.-]+)@([\da-z\.-]+)\.([a-z\.]{2,6})$/ This means it begins with characters within those paramters followed by an @ symbol and then characters after which would be its domain.
 
 ## Table of Contents
 
